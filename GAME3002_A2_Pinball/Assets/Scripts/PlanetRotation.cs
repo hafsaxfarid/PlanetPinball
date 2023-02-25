@@ -5,19 +5,31 @@ using UnityEngine;
 public class PlanetRotation : MonoBehaviour
 {
     [SerializeField]
-    private List<GameObject> planets = new List<GameObject>();
+    [Range(-1.5f, 1.5f)]
+    private float rotationSpeedX;
 
     [SerializeField]
-    private float rotationSpeed;
+    [Range(-1.5f, 1.5f)]
+    private float rotationSpeedY;
 
+    [SerializeField]
+    [Range(-1.5f, 1.5f)]
+    private float rotationSpeedZ;
+
+    Rigidbody mPlanetRB;
+
+    private void Start()
+    {
+        mPlanetRB = GetComponent<Rigidbody>();
+    }
 
     private void Update()
     {
-        RotatePlanets();
+        RotatePlanet();
     }
 
-    private void RotatePlanets()
+    private void RotatePlanet()
     {
-
+        mPlanetRB.transform.Rotate(rotationSpeedX, rotationSpeedY, rotationSpeedZ);
     }
 }

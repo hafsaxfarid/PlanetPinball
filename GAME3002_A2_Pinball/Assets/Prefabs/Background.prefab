@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7009210892463207854}
   - component: {fileID: 7009210892463207855}
   - component: {fileID: 1062819956}
+  - component: {fileID: 1796440974}
   m_Layer: 0
   m_Name: Planet (5)
   m_TagString: Untagged
@@ -114,6 +115,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 0
+--- !u!114 &1796440974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009210892463207841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a675b974165234bbf55300c2a874c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeedX: 0
+  rotationSpeedY: -0.5
+  rotationSpeedZ: 0
 --- !u!1 &7009210892768381236
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,6 +240,7 @@ GameObject:
   - component: {fileID: 7009210893616366607}
   - component: {fileID: 7009210893616366592}
   - component: {fileID: 7009210893066008768}
+  - component: {fileID: 1081832964}
   m_Layer: 0
   m_Name: Planet (2)
   m_TagString: Untagged
@@ -325,6 +342,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 0
+--- !u!114 &1081832964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009210893616366594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a675b974165234bbf55300c2a874c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeedX: 0
+  rotationSpeedY: 0.75
+  rotationSpeedZ: 0
 --- !u!1 &7009210893768514786
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +366,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7009210893768514785}
-  - component: {fileID: 5722112602749109685}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -364,26 +395,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5722112602749109685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7009210893768514786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a675b974165234bbf55300c2a874c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planets:
-  - {fileID: 7009210894116374323}
-  - {fileID: 7009210894037523142}
-  - {fileID: 7009210893616366594}
-  - {fileID: 7009210894164194116}
-  - {fileID: 7009210893867964264}
-  - {fileID: 7009210892463207841}
-  rotationSpeed: 5
 --- !u!1 &7009210893867964264
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,6 +408,7 @@ GameObject:
   - component: {fileID: 7009210893867964245}
   - component: {fileID: 7009210893867964246}
   - component: {fileID: 7009210893066008766}
+  - component: {fileID: 1378125203}
   m_Layer: 0
   m_Name: Planet (4)
   m_TagString: Untagged
@@ -498,6 +510,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 0
+--- !u!114 &1378125203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009210893867964264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a675b974165234bbf55300c2a874c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeedX: 0.45
+  rotationSpeedY: -0.7
+  rotationSpeedZ: -0.35
 --- !u!1 &7009210894037523142
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +538,7 @@ GameObject:
   - component: {fileID: 7009210894037523139}
   - component: {fileID: 7009210894037523140}
   - component: {fileID: 7009210893066008769}
+  - component: {fileID: 931377600}
   m_Layer: 0
   m_Name: Planet (1)
   m_TagString: Untagged
@@ -612,6 +640,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 0
+--- !u!114 &931377600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009210894037523142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a675b974165234bbf55300c2a874c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeedX: 0.65
+  rotationSpeedY: -1.04
+  rotationSpeedZ: 0.57
 --- !u!1 &7009210894116374323
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,6 +668,7 @@ GameObject:
   - component: {fileID: 7009210894116374320}
   - component: {fileID: 7009210894116374321}
   - component: {fileID: 7009210893066008770}
+  - component: {fileID: 1098727980}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Untagged
@@ -726,6 +770,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 0
+--- !u!114 &1098727980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009210894116374323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a675b974165234bbf55300c2a874c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeedX: -0.5
+  rotationSpeedY: 0.5
+  rotationSpeedZ: 0.25
 --- !u!1 &7009210894164194116
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +798,7 @@ GameObject:
   - component: {fileID: 7009210894164194113}
   - component: {fileID: 7009210894164194114}
   - component: {fileID: 7009210893066008767}
+  - component: {fileID: 316790452}
   m_Layer: 0
   m_Name: Planet (3)
   m_TagString: Untagged
@@ -840,3 +900,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 0
+--- !u!114 &316790452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7009210894164194116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a675b974165234bbf55300c2a874c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeedX: 0
+  rotationSpeedY: 0.7
+  rotationSpeedZ: 0
